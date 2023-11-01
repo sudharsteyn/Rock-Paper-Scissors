@@ -45,7 +45,7 @@ class RockPaperScissorsGame extends Component {
 
   onUserSelectedOption = id => {
     const {choicesList} = this.props
-    const randomPick = Math.ceil(Math.random() * choicesList.length) - 1
+    const randomPick = Math.floor(Math.random() * choicesList.length)
     this.setState(
       {
         isGameStart: false,

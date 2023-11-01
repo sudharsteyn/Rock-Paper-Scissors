@@ -26,7 +26,7 @@ export const Title = styled.h1`
   margin: 0px;
   width: 100px;
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 `
 
@@ -49,7 +49,7 @@ export const ScoreText = styled.p`
   font-weight: 500;
   margin: 0px;
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 `
 
@@ -60,6 +60,6 @@ export const Score = styled.p`
   font-weight: 500;
   margin: 0px;
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 `

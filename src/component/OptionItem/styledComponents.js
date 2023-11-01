@@ -1,12 +1,18 @@
 import styled from 'styled-components'
 
-export const OptionItem = styled.li``
+export const OptionItem = styled.li`
+  margin: 8p;
+`
 
 export const OptionButton = styled.button`
   background-color: transparent;
+  border-radius: 50%;
   border: none;
   outline: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export const OptionImage = styled.img`
